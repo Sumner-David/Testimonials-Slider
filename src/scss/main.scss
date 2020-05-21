@@ -1,0 +1,132 @@
+@import 'colors';
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+html {
+    font-size:32px;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background:#fff;
+}
+
+.container {
+    padding:15vh 10vh 10vh 10vh;
+    max-width:1440px;
+    margin:0 auto;
+    
+}
+
+.flex-container {
+    display:flex;
+    align-items:center;
+    width:100%;
+    
+    
+}
+
+.textContent {
+    //  background: rgba(36,77,51,0.);
+     padding: 1.4rem 0 ;
+     position:relative;
+     left:6.5%;
+     min-width:370px;
+    
+    //  transform: translateX(10%);
+     z-index:2;
+    
+    .quote {
+        color: $designDarkBlue;
+        line-height:1.2;
+        font-size:1rem;
+        margin-bottom:40px;
+        width:90%;
+        font-weight:200;
+    }
+
+    .name {
+        font-size:0.7rem;
+        font-weight:500;
+        color:$designDarkBlue;
+        span{
+            color:$grayishBlue;
+        }
+    }
+
+    .quoteSVG {
+        position:absolute;
+        top:-6%;
+        left:8%;
+        opacity:90%;
+        width:13%;
+    }
+}
+
+.imageContent {
+    position:relative;
+    right:6.5%;
+    text-align:right;
+
+    .background-person-pattern {
+        position:absolute;
+        
+        left:-20%;
+        bottom:2%;
+        
+        z-index:0;
+    }
+
+    .person {
+        position:relative;
+        z-index:1;
+        box-shadow: 10px 25px 50px -15px rgba(32, 32, 70, 0.8);
+    }
+    
+}
+
+
+.backgroundSVG {
+    
+    img {
+        bottom:0;
+        left:0;
+        position:absolute;
+        width:40%;
+        
+    }
+}
+
+.slider-button {
+    display:flex;
+    margin-left:50px;
+    position:relative;
+    bottom:30px;
+    z-index:5;
+
+    button {
+        width:50px;
+        height:50px;
+        background:#fff;
+        outline:none;
+        border:none;
+    }
+
+    button:active {
+       background:#ccc;
+    }
+
+    .leftArrow {
+        border-radius: 50% 0 0 50%;
+    }
+
+    .rightArrow {
+        border-radius: 0 50% 50% 0;
+    }
+
+}
+

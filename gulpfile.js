@@ -5,7 +5,7 @@ const autoprefixer = require("gulp-autoprefixer");
 const concat = require("gulp-concat");
 const cleanCSS = require("gulp-clean-css");
 
-
+//enter main sass directory here
 const mainSassFile = "./src/scss/main.scss";
 const mainsassFileOutput = "./src"
 
