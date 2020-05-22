@@ -74,10 +74,8 @@ body {
 
     .background-person-pattern {
         position:absolute;
-        
         left:-20%;
         bottom:2%;
-        
         z-index:0;
     }
 
@@ -95,8 +93,11 @@ body {
     img {
         bottom:0;
         left:0;
-        position:absolute;
-        width:40%;
+        position:fixed;
+        width:44%;
+        z-index:-1
+        
+        
         
     }
 }
@@ -130,3 +131,4 @@ body {
 
 }
 
+@import 'breakpoints';

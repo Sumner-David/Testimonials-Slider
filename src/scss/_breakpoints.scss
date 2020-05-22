@@ -1,0 +1,84 @@
+@media only screen and (max-width:1200px) {
+
+    .container {
+        padding:15vh 0 10vh 0;
+    }
+
+}
+
+@media only screen and (max-width:1070px){
+    span {
+        display:block;
+        margin-top:3px;
+        
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .person {
+        width:100%;
+        min-width:400px;
+    }
+
+    .name {
+        .quoteSVG {
+            top:4%;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    .flex-container {
+        flex-direction: column-reverse;
+        justify-content:center;
+        
+    }
+
+    .imageContent {
+        right:0;
+        left:0;
+        width:100%;
+        min-width:280px;
+        padding:0 20px;
+        text-align:center;
+        .person {
+            min-width:280px;
+            max-width:400px;
+        }
+
+        .slider-button {
+            display:flex;
+            justify-content:center;
+            margin-left:0;
+        }
+    }
+
+    .background-person-pattern {
+        display:none;
+    }
+
+    .textContent {
+        right:0;
+        left:0;
+        min-width:200px;
+        text-align:center;
+        padding:0 30px;
+        .quote {
+            font-size:0.6rem;
+            width:100%;
+            margin-bottom:20px;
+        }
+
+        .name {
+            span {
+                display:block;
+                font-size:0.6rem;
+            }
+        }
+    }
+    
+
+
+}
